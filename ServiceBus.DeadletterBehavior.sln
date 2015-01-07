@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceBus.DeadletterBehavior.Core", "ServiceBus.DeadletterBehavior.Core\ServiceBus.DeadletterBehavior.Core.csproj", "{C68284F6-575F-489E-B137-71C677FF1F01}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceBus.DeadletterBehavior.Client", "ServiceBus.DeadletterBehavior.Client\ServiceBus.DeadletterBehavior.Client.csproj", "{8EBF74DD-39C1-46AF-945C-5C9EADA3D6EF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceBus.DeadletterBehavior.Server", "ServiceBus.DeadletterBehavior.Server\ServiceBus.DeadletterBehavior.Server.csproj", "{EAF2AAEF-AE37-44E9-89D1-DDFBF5EDB92F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceBus.DeadletterBehavior.Azure", "ServiceBus.DeadletterBehavior.Azure\ServiceBus.DeadletterBehavior.Azure.csproj", "{354F0EB0-8414-4FEA-87E7-9F289FD933A3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C68284F6-575F-489E-B137-71C677FF1F01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C68284F6-575F-489E-B137-71C677FF1F01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C68284F6-575F-489E-B137-71C677FF1F01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C68284F6-575F-489E-B137-71C677FF1F01}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8EBF74DD-39C1-46AF-945C-5C9EADA3D6EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8EBF74DD-39C1-46AF-945C-5C9EADA3D6EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8EBF74DD-39C1-46AF-945C-5C9EADA3D6EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8EBF74DD-39C1-46AF-945C-5C9EADA3D6EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EAF2AAEF-AE37-44E9-89D1-DDFBF5EDB92F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EAF2AAEF-AE37-44E9-89D1-DDFBF5EDB92F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EAF2AAEF-AE37-44E9-89D1-DDFBF5EDB92F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EAF2AAEF-AE37-44E9-89D1-DDFBF5EDB92F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{354F0EB0-8414-4FEA-87E7-9F289FD933A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{354F0EB0-8414-4FEA-87E7-9F289FD933A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{354F0EB0-8414-4FEA-87E7-9F289FD933A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{354F0EB0-8414-4FEA-87E7-9F289FD933A3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
